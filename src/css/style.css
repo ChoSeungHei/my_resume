@@ -33,11 +33,41 @@ body {
     margin-top: 3%;
     font-size: 18pt;
     font-weight: 700;
+    margin: 2% 10% 0 10%;
 }
 
 .box_name{
-    font-size: 18pt;
+    font-size: 25pt;
     font-weight: 700;
+    padding: 60px 0 0 100px;
+}
+
+.box_position{
+    font-size: 13pt;
+    color: #555;
+    padding: 10px 0 0 100px;
+}
+
+.box_email{
+    position: absolute;
+    font-size: 18pt;
+    right: 110px;
+    font-weight: 700;
+    top: 55px;
+}
+
+.box_git{
+    position: absolute;
+    font-size: 13pt;
+    right: 110px;
+    top: 95px;
+}
+
+.box_blog{
+    position: absolute;
+    font-size: 13pt;
+    right: 110px;
+    top: 115px;
 }
 
 .main_box{
@@ -46,6 +76,12 @@ body {
     background-color: #f2e9e5;
     width: 80%;
     height: 300px;
+}
+
+.section_first{
+    width:100%;
+    height: 450px;
+    position: relative;
 }
 
 @media(min-width:768px)
@@ -62,11 +98,43 @@ body {
 
 .trapezoid {
     position:absolute; 
-    left: 40%;
+    left:50%; 
+    transform:translateX(-50%);
     top: 40px;
     width: 300px;
     height: 300px; 
     border-radius: 70%;
     overflow: hidden;
     border: white 6px solid;
+}
+
+.section_second{
+    width:100%;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.section_title{
+    margin: 30px 10% 30px 10%;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #c87e8a;
+}
+
+.section_text{
+    margin: 0 10% 0 10%;
+}
+
+.section_text2{
+    margin: 10px 10% 0 10%;
+}
+.section_mid_title{
+    margin: 30px 10% 10px 10%;
+    font-size: 14pt;
+    font-weight: 700;
+}
+.section_strong{
+    color: #827b78;
+    font-size: 14pt;
+    margin: 5px 10% 25px 10%;
 }

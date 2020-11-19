@@ -12,9 +12,10 @@ body {
     width: 100%;
     height: 100%;
 }
+
 .back_upper{
     width: 80%;
-    margin-left:10%;
+    margin: 5% 10% 5% 10%;
     height: 5px;
     background-color:#e5b0b2;
 }
@@ -22,9 +23,10 @@ body {
 @media(min-width:768px)
 {
     .back_upper{
-        margin: 3% 10% 0 10%;
         width: 80%;
+        margin: 3% 10% 0 10%;
         height: 5px;
+        background-color:#e5b0b2;
     }
 }
 
@@ -33,55 +35,132 @@ body {
     margin-top: 3%;
     font-size: 18pt;
     font-weight: 700;
-    margin: 2% 10% 0 10%;
+    margin: 2% 10% 10% 10%;
+}
+
+@media(min-width:768px)
+{
+    .title{
+        text-align: center;
+        margin-top: 3%;
+        font-size: 18pt;
+        font-weight: 700;
+        margin: 2% 10% 0 10%;
+    }
 }
 
 .box_name{
-    font-size: 25pt;
+    font-size: 13pt;
     font-weight: 700;
-    padding: 60px 0 0 100px;
+    padding: 180px 0 0 0 ;
+    text-align: center;
+}
+
+@media(min-width:768px)
+{
+    .box_name{
+        font-size: 25pt;
+        font-weight: 700;
+        padding: 60px 0 0 100px;
+        text-align: left;
+    }
 }
 
 .box_position{
-    font-size: 13pt;
+    font-size: 11pt;
     color: #555;
-    padding: 10px 0 0 100px;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+@media(min-width:768px)
+{
+    .box_position{
+        font-size: 13pt;
+        color: #555;
+        padding: 10px 0 0 100px;
+        text-align: left;
+    }
 }
 
 .box_email{
-    position: absolute;
-    font-size: 18pt;
-    right: 110px;
-    font-weight: 700;
-    top: 55px;
+    font-size: 11pt;
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+@media(min-width:768px)
+{
+    .box_email{
+        position: absolute;
+        font-size: 18pt;
+        right: 110px;
+        font-weight: 700;
+        top: 55px;
+        text-align: left;
+        padding: 0;
+    } 
 }
 
 .box_git{
-    position: absolute;
-    font-size: 13pt;
-    right: 110px;
-    top: 95px;
+    font-size: 11pt;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+@media(min-width:768px)
+{
+    .box_git{
+        position: absolute;
+        font-size: 13pt;
+        right: 110px;
+        top: 95px;
+        text-align: left;
+        padding: 0;
+    }
 }
 
 .box_blog{
-    position: absolute;
-    font-size: 13pt;
-    right: 110px;
-    top: 115px;
+    font-size: 11pt;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+@media(min-width:768px)
+{
+    .box_blog{
+        position: absolute;
+        font-size: 13pt;
+        right: 110px;
+        top: 115px;
+        text-align: left;
+        padding: 0;
+    }
+}
+
+
+.section_first{
+    width:100%;
+    height: 480px;
+    position: relative;
+}
+
+@media(min-width:768px)
+{
+    .section_first{
+        width:100%;
+        height: 450px;
+        position: relative;
+    }
 }
 
 .main_box{
     position:absolute; 
+    top: 80px;
     left: 10%;
-    background-color: #f2e9e5;
+    background-color: 	#d0c5c0B3;
     width: 80%;
-    height: 300px;
-}
-
-.section_first{
-    width:100%;
-    height: 450px;
-    position: relative;
+    height: 380px;
 }
 
 @media(min-width:768px)
@@ -100,13 +179,28 @@ body {
     position:absolute; 
     left:50%; 
     transform:translateX(-50%);
-    top: 40px;
-    width: 300px;
-    height: 300px; 
+    top: -10px;
+    width: 230px;
+    height: 230px; 
     border-radius: 70%;
     overflow: hidden;
-    border: white 6px solid;
+    border: white 4px solid;
 }
+@media(min-width:768px)
+{
+    .trapezoid {
+        position:absolute; 
+        left:50%; 
+        transform:translateX(-50%);
+        top: 40px;
+        width: 300px;
+        height: 300px; 
+        border-radius: 70%;
+        overflow: hidden;
+        border: white 6px solid;
+    }
+}
+
 
 .section_second{
     position: relative;

@@ -2,7 +2,7 @@
   "name": "my_resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ChoSeungHei/my_resume",
+  "homepage": "https://choseunghei.github.io/my_resume/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

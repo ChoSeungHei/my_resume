@@ -16,7 +16,7 @@ const Skill = () => {
                 Back-end
             </div>
             <div className="section_text2">
-                Nodejs, Docker, AWS(Amplify, EC2, Elastic BeansTalk, S3, Rds , Route53)
+                Nodejs, Docker, AWS(Amplify, EC2, Elastic BeansTalk, S3, Rds , Route53 ...)
             </div>
             <div className="section_mid_title">
                 DataBase

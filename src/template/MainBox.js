@@ -15,10 +15,10 @@ const MainBox = () => {
                     kwa0403261@gmail.com
                 </div>
                 <div className="box_git">
-                    https://github.com/ChoSeungHei
+                    <a href="https://github.com/ChoSeungHei" target="_blank">https://github.com/ChoSeungHei</a>
                 </div>
                 <div className="box_blog">
-                    http://kawa-it-diary.tistory.com
+                <a href="http://kawa-it-diary.tistory.com" target="_blank">http://kawa-it-diary.tistory.com</a>
                 </div>
             </div>
             <img className="trapezoid" src={main_photo}/>

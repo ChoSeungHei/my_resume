@@ -204,8 +204,17 @@ body {
 
 .section_second{
     position: relative;
-    margin: 0 10% 5% 10%;
+    margin: 0 10% 15% 10%;
     width: 80%;
+}
+
+@media(min-width:768px)
+{
+    .section_second{
+        position: relative;
+        margin: 0 10% 5% 10%;
+        width: 80%;
+    }
 }
 
 .section_title{
@@ -252,4 +261,35 @@ body {
 
 .menu[aria-expanded='true']::before, .menu[aria-selected='true']::before {
     transform: rotate(45deg);
+}
+
+a:link{
+    color: #000;
+    text-decoration: none;
+}
+a:visited{
+    color: #000;
+    text-decoration: none;
+}
+@media(min-width:768px)
+{
+    a:link{
+        color: #555;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #555;
+        text-decoration: none;
+    }
+}
+a:hover, a:focus { animation-duration: 3s; animation-name: rainbowLink; animation-iteration-count: infinite; } 
+@keyframes rainbowLink {     
+ 0% { color: #c87e8a; }
+ 15% { color: #555; }
+ 30% { color: #c87e8a; }
+ 45% { color: #555; }
+ 60% { color: #c87e8a; }
+ 75% { color: #555; }
+ 90% { color: #c87e8a; } 
+ 100% { color: #555; }
 }

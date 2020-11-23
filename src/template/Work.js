@@ -7,9 +7,9 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
+import {projects} from '../assets/project';
 
 const Work = () => {
-    const items = [{uuid:1, heading: '프로젝트1',content: '설명설명설명'},{uuid:2, heading: '프로젝트1',content: '설명설명설명'},{uuid:3, heading: '프로젝트1',content: '설명설명설명'}];
     return(
         <div className="section_second">
             <div className="section_title">
@@ -22,7 +22,7 @@ const Work = () => {
                 애플리케이션, 웹사이트 등의 프론트엔드 개발자
             </div>
             <Accordion>
-            {items.map((item) => (
+            {projects.map((item) => (
                 <AccordionItem key={item.uuid}>
                     <AccordionItemHeading>
                         <AccordionItemButton className="menu">
@@ -30,7 +30,12 @@ const Work = () => {
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                    {item.content}
+                    {item.period}<br/><br/>
+                    {
+                        item.content.split('\n').map(line=>{
+                            return(<div>{line}<br/></div>)
+                        })
+                    }
                     </AccordionItemPanel>
                 </AccordionItem>
             ))}

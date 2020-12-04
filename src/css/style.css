@@ -293,3 +293,7 @@ a:hover, a:focus { animation-duration: 3s; animation-name: rainbowLink; animatio
  90% { color: #c87e8a; } 
  100% { color: #555; }
 }
+
+.project_click{
+    text-decoration: underline !important;
+}

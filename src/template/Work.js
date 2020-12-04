@@ -40,6 +40,18 @@ const Work = () => {
                 </AccordionItem>
             ))}
             </Accordion>
+            <div className="section_mid_title">
+                개인 프로젝트
+            </div>
+            <div className="section_strong">
+                <a className="project_click" href="https://github.com/ChoSeungHei/matda" target="_blank">🍔 맛집 다이어리 [Matda]</a>
+            </div>
+            <div className="section_strong">
+                <a className="project_click" href="https://choseunghei.github.io/ReactTodoList/" target="_blank">📃 동적인 투두리스트[Animated TodoList]</a>
+            </div>
+            <div className="section_strong">
+                <a className="project_click" href="https://choseunghei.github.io/react_korean_pay_calc/" target="_blank">💰 내 월급 작고 소듕해[My Samll Pay]</a>
+            </div>
         </div>
     );
 }

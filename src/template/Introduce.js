@@ -17,7 +17,7 @@ const Introduce  = () => {
             <br/>
             <br/>
             * Develop Process<br/>
-            {'\u00A0\u00A0\u00A0\u00A0'}Agile : Redmine<br/>
+            {'\u00A0\u00A0\u00A0\u00A0'}Agile : Trello<br/>
             {'\u00A0\u00A0\u00A0\u00A0'}Wiki  : Google Docs<br/>
             {'\u00A0\u00A0\u00A0\u00A0'}Repo : Git
             </div>

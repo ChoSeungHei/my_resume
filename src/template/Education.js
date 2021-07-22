@@ -28,7 +28,7 @@ const Education  = () => {
                 순천향대학교 공과대학 학술제
             </div>
             <div className="section_text">
-                은상(다목적 스케줄 알리미)
+                은상 - 다목적 스케줄 알리미 (2020.02)
             </div>
         </div>
     );

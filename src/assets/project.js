@@ -25,4 +25,14 @@ const projects = [
     },
 ];
 
-export {projects};
+const mnt_projects = [
+    {
+        uuid: 0, 
+        heading: '웹하드 서비스 개발 및 운영',
+        period: '2021.01 - ',
+        content: '- 백오피스 서비스 개발(통계 / 회원관리 / 이벤트 관리) [PHP]\n- 유저페이지 신규 이벤트 개발(제휴 컨텐츠 할인 / 결제 이벤트) [PHP]'
+    },
+
+];
+
+export {projects, mnt_projects};

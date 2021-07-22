@@ -227,6 +227,10 @@ body {
 .section_text2{
     margin: 10px 0 0 0;
 }
+.project_desc{
+    font-size: 11pt;
+    margin: 10px 0 0 0;
+}
 .section_mid_title{
     margin: 30px 0 10px 0;
     font-size: 14pt;

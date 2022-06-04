@@ -301,3 +301,7 @@ a:hover, a:focus { animation-duration: 3s; animation-name: rainbowLink; animatio
 .project_click{
     text-decoration: underline !important;
 }
+
+.contents_detail{
+    line-height: 24px;
+}

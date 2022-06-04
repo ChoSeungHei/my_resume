@@ -29,10 +29,25 @@ const mnt_projects = [
     {
         uuid: 0, 
         heading: '웹하드 서비스 개발 및 운영',
-        period: '2021.01 - ',
-        content: '- 백오피스 서비스 개발(통계 / 회원관리 / 이벤트 관리) [PHP]\n- 유저페이지 신규 이벤트 개발(제휴 컨텐츠 할인 / 결제 이벤트) [PHP]'
+        period: '2021.01 - 2021.12',
+        content: '-  일 다운로드 50만건 규모 사이트 [PHP]\n- 모던 PHP에 맞게 레거시 코드 전체 수정\n- 백 오피스 개발(구매통계, 환불로직, 데이터 시각화)'
+    },
+    {
+        uuid: 1, 
+        heading: '웹하드 연동 쇼핑몰 유지보수',
+        period: '2021.11 - 2021.12',
+        content: '- 웹화드 ~ 쇼핑몰간 연동 API 개발 [PHP]\n- 쇼핑몰 백오피스 개선\n- 후기페이지 리뉴얼'
     },
 
 ];
 
-export {projects, mnt_projects};
+const pedal_projects = [
+    {
+        uuid: 0, 
+        heading: '어린이 경제교육 커뮤니티 개발',
+        period: '2021.03 - ',
+        content: '- 어린이 경제교육에 관한 컨텐츠를 제공하는 커뮤니티 [React, TypeScript]\n- 전반적인 프론트 구성 설계 / 퍼블리싱]\n- OAuth 로그인(카카오, 구글) 설계 및 구현\n- PG 연동 / 결제 기능 구현'
+    },
+]
+
+export {projects, mnt_projects,pedal_projects};

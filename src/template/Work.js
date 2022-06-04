@@ -7,7 +7,7 @@ import {
     AccordionItemPanel,
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
-import {projects ,mnt_projects} from '../assets/project';
+import {projects ,mnt_projects, pedal_projects} from '../assets/project';
 
 const Work = () => {
     return(
@@ -16,7 +16,32 @@ const Work = () => {
                 Work Experience_
             </div>
             <div className="section_mid_title">
-                엠엔티(2021.01 ~ )
+                페달파이낸셜테크놀로지(2022.03 ~)
+            </div>
+            <div className="section_strong">
+                어린이 경제교육 커뮤니티 개발
+            </div>
+            <Accordion>
+            {pedal_projects.map((item) => (
+                <AccordionItem key={item.uuid}>
+                    <AccordionItemHeading>
+                        <AccordionItemButton className="menu">
+                            {item.heading}
+                        </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                    {item.period}<br/><br/>
+                    {
+                        item.content.split('\n').map(line=>{
+                            return(<div className="contents_detail">{line}<br/></div>)
+                        })
+                    }
+                    </AccordionItemPanel>
+                </AccordionItem>
+            ))}
+            </Accordion>
+            <div className="section_mid_title">
+                엠엔티(2021.01 ~ 2021.12)
             </div>
             <div className="section_strong">
                 웹하드 서비스 개발 및 운영
@@ -33,7 +58,7 @@ const Work = () => {
                     {item.period}<br/><br/>
                     {
                         item.content.split('\n').map(line=>{
-                            return(<div>{line}<br/></div>)
+                            return(<div className="contents_detail">{line}<br/></div>)
                         })
                     }
                     </AccordionItemPanel>
@@ -59,7 +84,7 @@ const Work = () => {
                     {item.period}<br/><br/>
                     {
                         item.content.split('\n').map(line=>{
-                            return(<div>{line}<br/></div>)
+                            return(<div className="contents_detail">{line}<br/></div>)
                         })
                     }
                     </AccordionItemPanel>

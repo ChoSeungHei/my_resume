@@ -10,19 +10,19 @@ const Skill = () => {
                 Front-end
             </div>
             <div className="section_text2">
-                React, RN(react native)
+                React, React Native, JavaScript, TypeScript, Scss, StyledComponent
             </div>
             <div className="section_mid_title">
                 Back-end
             </div>
             <div className="section_text2">
-                Nodejs, Docker, AWS(Amplify, EC2, Elastic BeansTalk, S3, Rds , Route53)
+                PHP, Node.js, AWS(EC2, S3, RDS, Amplify)
             </div>
             <div className="section_mid_title">
                 DataBase
             </div>
             <div className="section_text2">
-                Mysql, Gql
+                Mysql
             </div>
         </div>
     );

@@ -16,7 +16,7 @@ const Skill = () => {
                 Back-end
             </div>
             <div className="section_text2">
-                PHP, Node.js, AWS(EC2, S3, RDS, Am)
+                PHP, Node.js, AWS(EC2, S3, RDS, Amplify)
             </div>
             <div className="section_mid_title">
                 DataBase

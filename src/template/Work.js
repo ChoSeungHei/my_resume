@@ -94,10 +94,10 @@ const Work = () => {
             <div className="section_mid_title">
                 개인 프로젝트
             </div>
-            <div className="section_strong">
+            {/* <div className="section_strong">
                 <a className="project_click" href="http://www.seunghei.kr/" target="_blank">🍳 오늘 뭐 먹지?[Today Lunch]</a>
                 <div className="project_desc">방문일자, 별점등을 고려해서 최적의 밥집을 추천하는 사이트</div>
-            </div>
+            </div> */}
             <div className="section_strong">
                 <a className="project_click" href="https://github.com/ChoSeungHei/matda" target="_blank">🍔 맛집 다이어리 [Matda]</a>
                 <div className="project_desc">위치기반 나의 맛집 기록 웹앱</div>

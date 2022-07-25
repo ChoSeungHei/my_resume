@@ -1,11 +1,19 @@
-import Back from './template/Back';
+import React, { Component } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./Main";
+import ProjectDetail from "./ProjectDetail";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Back/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/my_resume" element={<Main />}></Route>
+          <Route path="/project" element={<ProjectDetail />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
 export default App;

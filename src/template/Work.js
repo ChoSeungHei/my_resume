@@ -98,7 +98,7 @@ const Work = () => {
                 );
               })}
               {item.uuid === 1 ? (
-                <a className="more_click" href="/#/project">
+                <a className="more_click" href="/my_resume/#/project">
                   클릭 시 더 자세한 내용이 보입니다.
                 </a>
               ) : null}
